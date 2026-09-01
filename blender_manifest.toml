@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+
+id = "outliner_smart_sync"
+version = "2.0.1"
+name = "大纲切换显隐"
+tagline = "大纲中 E/R/D/F 批量切换视图显隐、渲染显隐与集合排除，支持对象集合混选"
+maintainer = "一枫"
+type = "add-on"
+
+blender_version_min = "3.0.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+tags = ["User Interface", "Scene"]
