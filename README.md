@@ -1,5 +1,8 @@
 # 大纲切换显隐 (Outliner Smart Sync)
 
+
+[![Latest release](https://img.shields.io/github/v/release/wen-yifeng/outliner_smart_sync?sort=semver)](https://github.com/wen-yifeng/outliner_smart_sync/releases/latest) [![Downloads](https://img.shields.io/github/downloads/wen-yifeng/outliner_smart_sync/total)](https://github.com/wen-yifeng/outliner_smart_sync/releases)
+
 在大纲里管理显隐是个高频操作：批量开关要逐个点小眼睛图标，对象和集合混在一起时更繁琐；渲染显隐还得切到另一列，集合排除藏在 ViewLayer 选项里。
 
 本插件把这一切搬到大纲键盘上：**选中后直接按键批量切换**——`E` 视图显隐、`R` 渲染显隐、`D` 集合排除、`F` 视图+渲染一起切，对象与集合混合多选一次搞定。
@@ -30,6 +33,16 @@
 所有操作支持 Blender 撤销（Ctrl+Z），无法处理的项目自动跳过并在状态栏提示。
 
 ## 安装
+
+**方式一（推荐）：一键安装全部插件并自动更新**
+
+Blender → 编辑 → 偏好设置 → 获取扩展（Get Extensions）→ 右上角 ▼ → 添加远程仓库（Add Remote Repository），粘贴：
+
+```
+https://wen-yifeng.github.io/blender-extensions/index.json
+```
+
+**方式二：单独安装本插件**
 
 1. 在 [Releases](../../releases) 页面下载 `outliner_smart_sync-x.x.x.zip`
 2. Blender → 编辑 → 偏好设置 → 获取扩展（Get Extensions）
